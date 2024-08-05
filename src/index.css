@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --primary-color: #2cc894;
+    --text-color: #3b3b3b;
+    --parahText: #ffffff;
+    --bg: linear-gradient(to bottom right, #3F72AF, #345278eb, #4b617c, #F9F7F7) ;
+    --bgBox: rgba(244, 234, 224, 0.361);
+    --bgCont: rgba(250, 246, 240, 0.587);
+    --tbg: #0E8388;
+    --ttext: #ffffff;
+    --bgH: linear-gradient(to right, #151e29, #334050,rgb(83, 203, 175, 0.783) ,#f9f7f73b, #f9f7f700);
+  }
+.bg-gradient-custom {
+    background-image: var(--bg);
+}
+.bg-b-c{
+    background-color:  rgba(46, 206, 169, 0.783)
+}
+.bgHome{
+    background-image: var(--bgH);
+}
+.bgBoox{
+    background-color: var(--bgBox);
+}
+.bgS{
+    background-color: var(--bgBox);
+}
+.bgContt{
+    background-color: var(--bgCont);
+}
+.cText{
+    color: var(--text-color);
+}
+.pText{
+    color: var(--parahText);
+}
+.gradient-text {
+    background-image: linear-gradient(to right, #2D033B, #301E67,  #5B8FB9, #03001C);
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+.gradienttext2 {
+    background-image: linear-gradient(to right, #1B262C,#1B262C ,#3282B8, #0F4C75,   #0F4C75, #1B262C);
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+.gradienttext2:hover{
+   border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.gradient-text:hover{
+   font-display: unset;
+}
+  
